@@ -1,10 +1,15 @@
 body{
   background-image: url("google-2.jpg");
 }
-.row{
-  margin-left: 120px;
-  margin-top: 100px;
+.navbar{
+  background-image: url("google-2.jpg");
 }
+.row{
+  border-radius: 1rem;
+  margin-left: 120px;
+  margin-top: 70px;
+}
+
 #mainpanel {
     position: center;
   }
@@ -15,6 +20,11 @@ body{
 
   }
   .sharelink{
+    padding-top: 0.8rem;
+    font-size: 1.5rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .sharelinks{
     font-size: 1.5rem;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
@@ -26,5 +36,22 @@ body{
   .shadow-lg {
     position:center;
     width:auto;
+  }
+
+@media screen and (max-width: 600px) {
+  .row{
+    border-radius: 1rem;
+    margin-left:0px;
+    margin-top: 4px;
+    margin-right:1px;
 
   }
+.headerbox{
+  font-size:1.8rem;
+
+} 
+.navbar{
+  width:auto;
+ height:91px;
+}
+}
